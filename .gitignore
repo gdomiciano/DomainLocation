@@ -1,0 +1,12 @@
+node_modules
+.git
+CVS
+.svn
+.hg
+.lock-wscript
+.wafpickle-N
+*.swp
+.DS_Store
+npm-debug.log
+public/node-modules
+public/.sass-cache

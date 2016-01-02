@@ -1,0 +1,29 @@
+header{
+    border-bottom: em(2px) #333 solid;
+    text-align: center;
+    margin-bottom: 1em;
+
+    .brand{
+        font-size: em(28px);
+    }
+
+}
+
+@media (min-width: 768px){
+    header{
+        margin-bottom: 1.5em;
+
+        .brand{
+            font-size: em(38px);
+        }
+    }
+
+}
+
+@media (min-width: 1101px){
+    header{
+        .brand{
+            font-size: em(42px);
+        }
+    }
+}
